@@ -1,6 +1,6 @@
 # GOFO_System_SoftwareEngineering_1_Project
 
-software engineering Project_FCAI-CU
+software engineering_1 Project_FCAI-CU
 
 open project from Intellij IDEA ( recommend ) Download Link : https://www.jetbrains.com/idea/download/#section=linux if you will run project 
 from another IDE you need two libraries
