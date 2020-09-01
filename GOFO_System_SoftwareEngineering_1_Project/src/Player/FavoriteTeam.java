@@ -9,6 +9,7 @@ public class FavoriteTeam extends User {
 
     private ArrayList <Player> fav_team;
     private String teamName ;
+    private String teamLeader ;
 
     public ArrayList<Player> getFav_team() {
         return fav_team;
@@ -24,6 +25,14 @@ public class FavoriteTeam extends User {
 
     public void setTeamName(String teamName) {
         this.teamName = teamName;
+    }
+
+    public String getTeamLeader() {
+        return teamLeader;
+    }
+
+    public void setTeamLeader(String teamLeader) {
+        this.teamLeader = teamLeader;
     }
 
     @Override
