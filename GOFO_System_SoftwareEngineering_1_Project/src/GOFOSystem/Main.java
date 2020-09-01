@@ -232,7 +232,10 @@ public class Main {
 
                         for (int i = 0; i < Accounts.size() ; i++) {
 
-                            if ( userName.equals(Accounts.get(i).getUserName()) && password.equals(Accounts.get(i).getPassword())){
+                            if (    userName.equals(Accounts.get(i).getUserName())
+                                    &&
+                                    password.equals(Accounts.get(i).getPassword())
+                            ){
 
                                 statusPlayer = true ;
                                 playerIndex = i ;
@@ -250,6 +253,12 @@ public class Main {
                             System.out.println("*******************************");
                             System.out.println("* Welcome In Home Page Player *");
                             System.out.println("*******************************");
+                            System.out.println("* 1 - Favorite Team           *");
+                            System.out.println("* 2 _ Personal Info           *");
+                            System.out.println("* 3 _ Booking                 *");
+                            System.out.println("* 5 _ Return To GOFO Page     *");
+                            System.out.println("*******************************");
+
 
                         }
 
@@ -285,7 +294,10 @@ public class Main {
 
                         for (int i = 0; i < owner1.getActiveOwner().size(); i++) {
 
-                            if (userName.equals(owner1.getActiveOwner().get(i).getUserName()) && password.equals(owner1.getActiveOwner().get(i).getPassword()) ){
+                            if (    userName.equals(owner1.getActiveOwner().get(i).getUserName())
+                                    &&
+                                    password.equals(owner1.getActiveOwner().get(i).getPassword())
+                            ){
 
                                 statusOwner = true ;
                                 ownerGroundIndex = i;

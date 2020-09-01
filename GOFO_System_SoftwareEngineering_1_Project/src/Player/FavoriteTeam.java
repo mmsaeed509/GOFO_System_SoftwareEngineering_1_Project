@@ -7,7 +7,8 @@ import java.util.ArrayList;
 public class FavoriteTeam extends User {
 
 
-    ArrayList <Player> fav_team;
+    private ArrayList <Player> fav_team;
+    private String teamName ;
 
     public ArrayList<Player> getFav_team() {
         return fav_team;
@@ -15,6 +16,14 @@ public class FavoriteTeam extends User {
 
     public void setFav_team(ArrayList<Player> fav_team) {
         this.fav_team = fav_team;
+    }
+
+    public String getTeamName() {
+        return teamName;
+    }
+
+    public void setTeamName(String teamName) {
+        this.teamName = teamName;
     }
 
     @Override
