@@ -7,6 +7,13 @@ public class Player extends User {
 
     private int playerNumber ;
 
+    public Player(String name, String phoneNumber, String eMail, String ID, String password, String street, String area, String governorate, String role, String userName) {
+        super(name, phoneNumber, eMail, ID, password, street, area, governorate, role, userName);
+    }
+
+    public Player() {
+
+    }
 
     public int getPlayerNumber() {
         return playerNumber;

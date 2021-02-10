@@ -13,6 +13,22 @@ public class User {
     private String Role ;
     private String userName ;
 
+    public User() {
+    }
+
+    public User(String name, String phoneNumber, String eMail, String ID, String password, String street, String area, String governorate, String role, String userName) {
+        Name = name;
+        PhoneNumber = phoneNumber;
+        this.eMail = eMail;
+        this.ID = ID;
+        Password = password;
+        Street = street;
+        Area = area;
+        Governorate = governorate;
+        Role = role;
+        this.userName = userName;
+    }
+
     public String getUserName() {
         return userName;
     }

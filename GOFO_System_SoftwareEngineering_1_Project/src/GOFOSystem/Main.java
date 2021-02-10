@@ -25,15 +25,22 @@ public class Main {
         //--------------  Number ---------------
 
 
-        //------ Object From Class ----------
+        //------ Object From Class & Creat Default Accounts ----------
 
         Admin admin = new Admin();
-        Player player1 = new Player();
-        Player player2 = new Player();
-        Player player3 = new Player();
+        Player player1 = new Player("Mahmoud Siad","01116060955","mmsaeed509@gmial.com","20180261","ozil12345","13_Ahmed Maoud","Ayat","Giza","mmsaeed509","player");
+        player1.setPlayerNumber(0);
+
+        Player player2 = new Player("Ali Ahmed","01100249152","mmozil509@gmial.com","20190261","12345","13_Ahmed Khames","Dokki","Giza","mmozil509","player");
+        player2.setPlayerNumber(1);
+
+        Player player3 = new Player("Gamal Nabel","01115959877","gamal356@gmial.com","201983476","ozil145","4_Kamal Adham","Borg Elarab","Alex","gamal356","player");
+        player3.setPlayerNumber(2);
+
         GroundOwner owner1 = new GroundOwner();
 
-        //------ Object From Class ----------
+
+        //------ Object From Class & Creat Default Accounts ----------
 
         //---- Default UserName & Password For Admin Page ------
 
@@ -50,48 +57,13 @@ public class Main {
 
         //-------------- ArrayList To Store Data -------------------
 
-        //---------- Creat Default Accounts ------------
+        //---------- Save Accounts  ------------
 
-        player1.setName("Mahmoud Mohamed Siad Ahmed");
-        player1.setPhoneNumber("01116060955");
-        player1.seteMail("mmsaeed509@gmial.com");
-        player1.setID("20180261");
-        player1.setPassword("ozil12345");
-        player1.setStreet("13_Ahmed Maoud");
-        player1.setArea("Ayat");
-        player1.setGovernorate("Giza");
-        player1.setUserName("mmsaeed509");
-        player1.setRole("player");
-        player1.setPlayerNumber(0);
         Accounts.add(player1);
-
-        player2.setName("Ali Ahmed Mutaz");
-        player2.setPhoneNumber("01100249152");
-        player2.seteMail("mmozil509@gmial.com");
-        player2.setID("20190261");
-        player2.setPassword("12345");
-        player2.setStreet("13_Ahmed Khames");
-        player2.setArea("Dokki");
-        player2.setGovernorate("Giza");
-        player2.setUserName("mmozil509");
-        player2.setRole("player");
-        player2.setPlayerNumber(1);
         Accounts.add(player2);
-
-        player3.setName("Gamal Nabel Ali");
-        player3.setPhoneNumber("01115959877");
-        player3.seteMail("gamal356@gmial.com");
-        player3.setID("201983476");
-        player3.setPassword("ozil145");
-        player3.setStreet("4_Kamal Adham");
-        player3.setArea("Borg Elarab");
-        player3.setGovernorate("Alex");
-        player3.setUserName("gamal356");
-        player3.setRole("player");
-        player3.setPlayerNumber(2);
         Accounts.add(player3);
 
-        //---------- Creat Default Accounts ------------
+        //---------- Save Accounts  ------------
 
         while (true){
 
