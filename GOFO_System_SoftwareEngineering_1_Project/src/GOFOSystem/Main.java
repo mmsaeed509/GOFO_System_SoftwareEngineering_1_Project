@@ -28,13 +28,13 @@ public class Main {
         //------ Object From Class & Creat Default Accounts ----------
 
         Admin admin = new Admin();
-        Player player1 = new Player("Mahmoud Siad","01116060955","mmsaeed509@gmial.com","20180261","ozil12345","13_Ahmed Maoud","Ayat","Giza","mmsaeed509","player");
+        Player player1 = new Player("Mahmoud Siad","01116060955","mmsaeed509@gmial.com","20180261","ozil12345","13_Ahmed Maoud","Ayat","Giza","player","mmsaeed509");
         player1.setPlayerNumber(0);
 
-        Player player2 = new Player("Ali Ahmed","01100249152","mmozil509@gmial.com","20190261","12345","13_Ahmed Khames","Dokki","Giza","mmozil509","player");
+        Player player2 = new Player("Ali Ahmed","01100249152","mmozil509@gmial.com","20190261","12345","13_Ahmed Khames","Dokki","Giza","player","mmozil509");
         player2.setPlayerNumber(1);
 
-        Player player3 = new Player("Gamal Nabel","01115959877","gamal356@gmial.com","201983476","ozil145","4_Kamal Adham","Borg Elarab","Alex","gamal356","player");
+        Player player3 = new Player("Gamal Nabel","01115959877","gamal356@gmial.com","201983476","ozil145","4_Kamal Adham","Borg Elarab","Alex","player","gamal356");
         player3.setPlayerNumber(2);
 
         GroundOwner owner1 = new GroundOwner();
